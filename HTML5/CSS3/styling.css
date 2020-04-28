@@ -1,0 +1,89 @@
+h1{
+	
+	font-size:250%;
+	font-family:Georgia,"Times New Roman";
+}
+
+header{
+	background:rgb(100,200,100,0.3);
+	text-align:center;
+	padding-bottom:15px;
+
+}
+
+nav{
+	font-variant:small-caps;
+	font-size:150%;
+	font-family:Arial,serif;
+}
+h2{
+	color:white;
+	background:black;
+}
+
+details{
+	font-style:italic;
+
+}
+
+summary{
+	font-style:normal;
+}
+footer{
+	background:rgb(100,200,100,0.3);
+	text-align:center;
+	clear:both;
+}
+
+body{
+	margin:10%;
+}
+
+section{
+	width:30%;
+	display:inline-block;
+	float:left;
+	margin-right:2%;
+}
+img{
+	width:80px;
+}
+meter{
+  margin-top: 10px;
+  display:block;
+}
+
+h1{
+	background:rgb(200, 162, 200);
+	background:-moz-linear-gradient(top,rgb(200, 162, 200) 0%,rgb(255,105,180) 100%);
+	background:-webkit-linear-gradient(top,rgb(200, 162, 200) 30%,rgb(255,105,180) 90%);
+    background:-o-linear-gradient(top,rgb(200, 162, 200) 0%,rgb(255,105,180) 100%);
+    background:linear-gradient(top,rgb(200, 162, 200) 0%,rgb(255,105,180) 100%);
+
+}
+header,footer{
+	background-image: url('../images/img.jpg');
+    background-opacity:0.4;
+    
+}
+
+nav a{
+	display:inline-block;
+	width:22%;
+	background:white;
+}
+
+.half{
+	width:45%;
+
+}
+
+.full{
+	clear:both;
+	width:100%;
+
+}
+
+
+
+
